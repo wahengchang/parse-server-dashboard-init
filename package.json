@@ -1,0 +1,13 @@
+{
+  "name": "parse-server-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "parse-dashboard": "^2.0.5",
+    "parse-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

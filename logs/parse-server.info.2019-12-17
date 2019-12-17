@@ -1,0 +1,4 @@
+{"functionName":"averageStars","params":{"movie":"The Matrix"},"level":"info","message":"Ran cloud function averageStars for user undefined with:\n  Input: {\"movie\":\"The Matrix\"}\n  Result: null","timestamp":"2019-12-17T02:45:48.358Z"}
+{"functionName":"averageStars","params":{"movie":"The Matrix"},"level":"info","message":"Ran cloud function averageStars for user undefined with:\n  Input: {\"movie\":\"The Matrix\"}\n  Result: null","timestamp":"2019-12-17T02:46:07.756Z"}
+{"functionName":"averageStars","params":{"movie":"The Matrix"},"level":"info","message":"Ran cloud function averageStars for user undefined with:\n  Input: {\"movie\":\"The Matrix\"}\n  Result: null","timestamp":"2019-12-17T02:46:48.410Z"}
+{"functionName":"averageStars","params":{"movie":"The Matrix"},"level":"info","message":"Ran cloud function averageStars for user undefined with:\n  Input: {\"movie\":\"The Matrix\"}\n  Result: \"ok\"","timestamp":"2019-12-17T02:47:31.574Z"}
