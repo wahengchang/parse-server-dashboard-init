@@ -1,3 +1,4 @@
 node_modules
-env.sh
-logs
+env*.sh
+./logs
+sync*
