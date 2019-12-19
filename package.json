@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node parse-server.js",
+    "dev": "nodemon parse-server.js"
   }
 }

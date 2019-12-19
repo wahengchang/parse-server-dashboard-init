@@ -1,1 +1,2 @@
 require('./cogniac')
+require('./init')
