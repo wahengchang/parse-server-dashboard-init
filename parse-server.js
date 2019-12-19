@@ -4,6 +4,7 @@ const ParseDashboard = require('parse-dashboard');
 const app = express();
 
 const HOST_URL = process.env.HOST_URL || 'localhost'
+Parse.initialize(process.env.APP_ID,null,process.env.MASTER_KEY);
 
 // Serve the Parse API on the /parse URL prefix
 app.use('/parse', new ParseServer(require('./configs/server')));
