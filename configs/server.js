@@ -6,6 +6,8 @@ module.exports = {
     masterKey: process.env.MASTER_KEY, // Keep this key secret!
     fileKey: 'optionalFileKey',
     serverURL: `http://${HOST_URL}:1337/parse`, // Don't forget to change to https if needed
+    mountGraphQL: true,
+    mountPlayground: true,
     "filesAdapter": {
       "module": "@parse/s3-files-adapter",
       "options": {
