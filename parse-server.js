@@ -15,7 +15,6 @@ const {
   mountPlayground,
   graphQLPath = '/graphql',
   playgroundPath = '/playground',
-  graphQLServerURL = `http://${HOST_URL}:1337/graphql`
 } = serverConfig;
 if (mountGraphQL === true || mountPlayground === true) {
   const parseGraphQLServer = new ParseGraphQLServer(parseServer, {
@@ -27,14 +26,13 @@ if (mountGraphQL === true || mountPlayground === true) {
     parseGraphQLServer.applyGraphQL(app);
   }
 
-  if (mountPlayground) {
+  if (mountPlayground && process.env.ENV !== 'prod') {
     parseGraphQLServer.applyPlayground(app);
   }
 }
 
 
 // Serve the Parse API on the /parse URL prefix
-
 app.use('/dashboard', new ParseDashboard(require('./configs/dashboard'),{ allowInsecureHTTP: true }));
 app.use('/apis/boxs', require('./apis/boxs'))
 app.use('/parse', parseServerApi); //  <-- Moved here

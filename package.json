@@ -14,7 +14,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "node parse-server.js",
+    "start": "ENV=prod nodemon parse-server.js",
     "dev": "nodemon parse-server.js"
   }
 }

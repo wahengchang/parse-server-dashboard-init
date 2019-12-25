@@ -5,6 +5,7 @@ module.exports = {
         "appId": process.env.APP_ID,
         "masterKey": process.env.MASTER_KEY,
         "appName": process.env.PARSE_DASHBOARD_APP_NAME,
+        graphQLServerURL: `http://${process.env.HOST_URL}:1337/graphql`
       }
     ],
     "users": [
