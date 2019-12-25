@@ -8,6 +8,7 @@ module.exports = {
     serverURL: `http://${HOST_URL}:1337/parse`, // Don't forget to change to https if needed
     mountGraphQL: true,
     mountPlayground: true,
+    publicServerURL: `http://${HOST_URL}:1337/parse`,
     "filesAdapter": {
       "module": "@parse/s3-files-adapter",
       "options": {
